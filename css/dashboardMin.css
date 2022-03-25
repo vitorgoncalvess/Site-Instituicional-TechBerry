@@ -6,6 +6,7 @@
     height: 65%;
     margin-left: 65%;
     margin-top: 8%;
+    background-color: white;
 }
 .sensorContainers {
     position: fixed;
@@ -14,6 +15,7 @@
     height: 65%;
     margin-left: 8%;
     margin-top: 8%;
+    background-color: white;
 }
 .sensorContainer1 {
     position: fixed;

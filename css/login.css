@@ -16,11 +16,12 @@
     border: none;
     border-bottom: 2px solid #ffc3c3;
     margin-left: 2%;
-    font-size: 100%;
+    font-size: 70%;
     margin-top: 10%;
     font-family: Arial;
     width: 95%;
     height: 10%;
+    outline: none;
 }
 .loginNomes {
     position: fixed;

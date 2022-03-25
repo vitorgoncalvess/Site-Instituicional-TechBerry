@@ -14,3 +14,11 @@ function cadastroLogin() {
             senhaIpt.value = ''
         }
 }
+function mudarCor1() {
+    emailIpt.style.backgroundColor = '#ffffff'
+    credencialErrado.style.display = 'none'
+}
+function mudarCor2() {
+    senhaIpt.style.backgroundColor = '#ffffff'
+    credencialErrado.style.display = 'none'
+}

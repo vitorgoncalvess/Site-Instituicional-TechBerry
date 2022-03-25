@@ -30,13 +30,13 @@
       </div>
       <div class="loginContainer">
           <span class="loginNomes">Email</span>
-            <input type="text" id="emailIpt" class="emailEstilo"> <br> <br>
+            <input type="text" id="emailIpt" class="emailEstilo" oninput="mudarCor1()"> <br> <br>
           <span class="loginNomes">Senha</span>
-            <input type="password" id="senhaIpt" class="senhaEstilo">
+            <input type="password" id="senhaIpt" class="senhaEstilo" oninput="mudarCor2()">
             <span class="inputErrado" id="credencialErrado">Credenciais Incorretas</span>
             <button onclick="cadastroLogin()" class="botaoLogin">Conectar-se</button>
             <span class="senhaEsqueceu">Esqueceu a Senha <br> <br>
-            <span>Não tem conta? Cadastre-se</span></span>
+            <span onclick="location.href='cadastro.html'">Não tem conta? Cadastre-se</span></span>
       </div>
       <div class="beader">
         <div class="infoBeader">

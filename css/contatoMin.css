@@ -6,6 +6,7 @@
         height: 62%;
         margin-left: 25%;
         margin-top: 8%;
+        background-color: rgb(255, 224, 224);
     }
     .contatoInput {
         position: relative;
@@ -15,6 +16,7 @@
         margin-top: 2.2%;
         border: 2px solid #ff8a8a;
         border-radius: 1em;
+        outline: none;
     }
     .contatoEmail {
         height: 40%;
