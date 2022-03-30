@@ -34,9 +34,10 @@
           <span class="loginNomes">Senha</span>
             <input type="password" id="senhaIpt" class="senhaEstilo" oninput="mudarCor2()">
             <span class="inputErrado" id="credencialErrado">Credenciais Incorretas</span>
-            <button onclick="cadastroLogin()" class="botaoLogin">Conectar-se</button>
-            <span class="senhaEsqueceu">Esqueceu a Senha <br> <br>
-            <span onclick="location.href='cadastro.html'">Não tem conta? Cadastre-se</span></span>
+            <span class="inputErrado" id="credencialErrado1">Preencha os campos</span>
+            <button id="conectar" onclick="cadastroLogin()" class="botaoLogin">Conectar-se</button> <br>
+            <span class="senhaEsqueceu" onclick="location.href='contato.html'">Esqueceu a Senha</span> <br>
+            <span  class="naoTem" onclick="location.href='cadastro.html'">Não tem conta? Cadastre-se</span>
       </div>
       <div class="beader">
         <div class="infoBeader">

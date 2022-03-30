@@ -1,12 +1,12 @@
 .cadastroContainer {
-        position: fixed;
+        position: relative;
         justify-content: center;
         border-color: #ffc3c3;
         width: 45%;
-        height: 60%;
+        height: 370px;
         border-style: solid;
         margin-left: 28%;
-        margin-top: 9%;
+        margin-top: 3%;
         background-color: white;
         font-family: Arial;
         color: #ff8a8a;
@@ -20,6 +20,7 @@
         font-size: 100%;
         margin-left: 2%;
         margin-top: 8%;
+        outline: none;
 }
 .nomeInput, .emailInput {
         position: fixed;
