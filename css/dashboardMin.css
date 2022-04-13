@@ -49,4 +49,10 @@
     margin-left: 25.7%;
     margin-top: 15.2%;
 }
+.graus {
+    position: fixed;
+    color: rgb(255, 112, 112);
+    margin-top: 130px;
+    margin-left: 130px;
+}
 }
